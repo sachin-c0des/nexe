@@ -5,6 +5,7 @@ import { getTarget, NexeTarget } from '../src/target'
 const b = chalk.blue
 const arch = process.arch === 'ia32' ? 'x86' : process.arch
 
+// test comment
 describe('Targets', () => {
   ;[
     ['win-ia32-6.11.2', 'windows-x86-6.11.2'],
