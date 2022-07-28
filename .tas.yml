@@ -14,4 +14,4 @@ preRun:
      command:
         - npm ci
 version: 1.5
-parallelism: 8
+parallelism: 6
